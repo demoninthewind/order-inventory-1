@@ -22,7 +22,7 @@ class EtsyConnector : IPlatformConnector {
         }
     }
     private val baseUrl = "https://api.etsy.com/v3/application"
-    private val apiKey: String = System.getenv("ETSY_API_KEY")
+    private val apiKey: String = System.getenv("oi7vwavltygpuyl3t27d2gpx")
         ?: error("ETSY_API_KEY environment variable not set")
 
     override suspend fun authenticate() {
